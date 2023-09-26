@@ -1,0 +1,120 @@
+body {
+   background-color: #101010;
+    color: #000;
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remover margens padrão do body */
+}
+header {
+    background-color: #1a1a22;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0; /* Remover margens padrão do header */
+}
+.logo img {
+    width: 130px;
+    height:auto;
+    ;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.banner {
+    background-image: url('imgs/fundo-index.webp'); 
+    background-size:  100% ;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 200px 0;
+    margin: 0; /* Remover margens padrão do banner */
+    
+}
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ededed;
+    
+}
+.banner p {
+    font-size: 18px;
+    color: #ededed;
+}
+.cta-button {
+    display: inline-block;                 
+    padding: 10px 20px;
+    background-color: #101010;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+footer {
+    background-color: #101010;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin: 0; /* Remover margens padrão do footer */
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content .social-links a {
+    margin-right: 10px;
+}
+.about-banner {
+    display: flex;
+    background-color: #fafafa;
+    color: #333;
+    padding: 40px;
+    padding-left: 70px;
+    font-family: 'Arial', sans-serif;
+}
+
+.about-banner h1 {
+    font-size: 48px;
+    margin: 0; 
+}
+.about-banner hr{
+    width: 50%;
+    border-color: yellow;
+    padding-right: 70px;
+}
+
+.about-banner p {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 60%;
+    padding-top: 50px;
+  
+}
+
+.about-banner img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin-left: auto; /* Move a imagem para a direita */
+}
+
+.assistance-text {
+    position: absolute;
+    bottom: -100px;
+    left: 10px;
+    font-size: 10px;
+    color: #333;
+}
+                                                                                                                                                            
