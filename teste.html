@@ -1,134 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deca - Produtos de Qualidade para o seu Banheiro</title>
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <style>
-        
-        body {
-            background-color: #ededed;
-            color: #000;
-            font-family: Arial, sans-serif;
-            margin: 0; /* Remover margens padrão do body */
-        }
-        header {
-            background-color: #101010;
-            color: #fff;
-            padding: 20px 0;
-            margin: 0; /* Remover margens padrão do header */
-        }
-        .logo img {
-            width: 50px;
-            height: auto;
-        }
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-        nav ul li a {
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-        }
-        .banner {
-            background-image: url('fundo-index'); 
-            background-size:  100% ;
-            background-position: center center;
-            background-color: rgba(0, 0, 0, 0.5);
-            text-align: center;
-            padding: 200px 0;
-            margin: 0; /* Remover margens padrão do banner */
-            
-        }
-        .banner h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-            color: #ededed;
-            
-        }
-        .banner p {
-            font-size: 18px;
-            color: #ededed;
-        }
-        .cta-button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #101010;
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-        footer {
-            background-color: #101010;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-            margin: 0; /* Remover margens padrão do footer */
-        }
-        .footer-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .footer-content .social-links a {
-            margin-right: 10px;
-        }
-        
-    </style>
-</head>
-<body>
-    <header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>I FIX</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            /* Adicione estilos para a imagem no header */
+            #header-logo {
+                position: absolute;
+                left: 20px;
+                top: 20px;
+                width: 50px; /* Ajuste o tamanho conforme necessário */
+            }
+
+            /* Adicione estilos para a imagem no footer */
+            #footer-logo {
+                position: absolute;
+                left: 20px;
+                bottom: 20px;
+                width: 30px; /* Ajuste o tamanho conforme necessário */
+            }
+        </style>
+    </head>
+    <body>
         <header>
-            <div class="logo">
-                <img src="logo-deca" alt="Logotipo da Deca">
-            </div>
             <nav>
-                <ul>
+                <div class="logo">
+                    <img id="header-logo" src="caminho-da-sua-imagem-header.jpg" alt="Logotipo do header">
+                </div>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-list">
                     <li><a href="#inicio">Início</a></li>
                     <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#sobre-nos">Sobre Nós</a></li>
+                    <li><a href="#sobre">Sobre nós</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
         </header>
-    </header>
-    <section class="banner">
-        <h1>Bem-vindo à I FIX</h1>
-        <p>Transformando o seu banheiro em um espaço de luxo e conforto.</p>
-        <a href="#produtos" class="cta-button">Veja nossos produtos</a>
-        <div class="location">
-            <h2>Localização da Assistência Técnica</h2>
-            <p>Endereço: Rua Exemplo, 1234</p>
-            <p>Cidade: Sua Cidade</p>
-            <p>Telefone: (123) 456-7890</p>
-        </div>
-    </section>
-    
-    <!-- O conteúdo do site continuaria aqui -->
-    
-    <footer>
-        <div class="footer-content">
-            <div class="logo">
-                <img src="logo-deca" alt="Logotipo da Deca">
+        <section class="banner">
+            <h1>Bem-vindo à I FIX</h1>
+            <p>Transformando o seu banheiro em um espaço de luxo e conforto.</p>
+            <a href="#produtos" class="cta-button">Veja nossos produtos</a>
+        </section>
+        <section class="about-banner">
+            <div class="about1">
+                <h1>Sobre Nós</h1>
+                <hr>
+                <p>Somos a I FIX, especializada em transformar banheiros em espaços luxuosos e confortáveis. Como Assistência Técnica Autorizada Deca e Hydra, oferecemos produtos de qualidade e elegância.</p>
             </div>
-            <div class="social-links">
-                <a href="#" target="_blank"><img src="icone-facebook.png" alt="Facebook"></a>
-                <a href="https://www.instagram.com/juchimiuk_/" target="_blank"><img src="Insta-Logo" alt="Instagram" style="width: 30px; height: auto;"></a>
-                <a href="https://w.app/smYtfL" target="_blank"><img src="zap-logo" alt="Whattsapp" style="width: 30px; height: auto;"></a>
+            <div class="assistance-text">
+                <p>Assistência Técnica Autorizada</p>
             </div>
-        </div>
-        <p>&copy; 2023 I FIX. Todos os direitos reservados.</p>
-    </footer>
-</body>
+            <img src="imgs/pia-preta.webp" alt="Imagem de Sobre Nós">
+        </section>
+        <footer>
+            <div class="footer-content">
+                <div class="logo">
+                    <img id="footer-logo" src="caminho-da-sua-imagem-footer.jpg" alt="Logotipo do footer">
+                </div>
+                <div class="social-links">
+                    <a href="#" target="_blank"><img src="imgs/icone-facebook.webp" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/juchimiuk_/" target="_blank"><img src="imgs/Insta-Logo.webp" alt="Instagram" style="width: 30px; height: auto;"></a>
+                    <a href="https://w.app/smYtfL" target="_blank"><img src="imgs/zap-logo.webp" alt="Whattsapp" style="width: 30px; height: auto;"></a>
+                </div>
+            </div>
+            <p>&copy; 2023 I FIX. Todos os direitos reservados.</p>
+        </footer>
+    </body>
 </html>
