@@ -13,14 +13,22 @@ a{
     text-decoration:none ;
     transition: 0.3s;
 }
+header{
+    padding: 20px
+}
 
 a:hover{
     opacity: 0.7;
 }
 .logo {
-    font-size: 4px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+        width: 150px;
+        margin-right: 200px;
+}
+.logo-header {
+    width: 150px;
+    margin-right: 200px;
+    top: 15px;
+    position: absolute;
 }
 nav{
     display: flex;
@@ -39,6 +47,7 @@ main{
 .nav-list{
     list-style: none;
     display: flex;
+    font-size: 20px;
 }  
 .nav-list li{
     letter-spacing: 3px;
@@ -102,10 +111,14 @@ footer {
     font-size: 48px;
     margin: 0; 
 }
-.about-banner hr{
-    width: 50%;
-    border-color: yellow;
-    padding-right: 70px;
+.yellow-line {
+    position: absolute;
+    background-color: #fbcc5d;
+    height: 3px;
+    width: 150px;
+    top: 26%;
+    left: 13.6%;
+    transform: translate(-50%, -50%);
 }
 
 .about-banner p {
