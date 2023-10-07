@@ -54,6 +54,46 @@ body {
      letter-spacing: 4px;
      margin-left: 35px;
  }
+ .ifix-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.ifix-content {
+    text-align: center;
+}
+
+.ifix-content img {
+    max-width: 100px;
+    height: auto;
+}
+
+.ifix-content h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.ifix-content p {
+    font-size: 16px;
+    color: #666;
+}
+
+.whatsapp-box {
+    text-align: center;
+}
+
+.whatsapp-box p {
+    font-size: 18px;
+    color: #333;
+}
+
+.whatsapp-box a img {
+    max-width: 50px;
+    height: auto;
+}
  .banner {
      background-image: url('imgs/fundo-index.webp'); 
      background-size:  100% ;
