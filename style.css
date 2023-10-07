@@ -139,6 +139,47 @@ body {
     height: auto;
     border-radius: 10px;
 }
+.sobrei {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.sobre {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.sobre img {
+    max-width: 100px;
+    height: auto;
+}
+
+.sobre h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.sobre p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.sobre a {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
 .contact-us {
     display: flex;
     justify-content: center;
